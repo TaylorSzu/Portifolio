@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;500&display=swap" rel="stylesheet">
+    <title>Taylor Souza - Portfólio</title>
+    <link rel="icon" href="./img/favicon.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="caixa-principal" id="inicio-id">
+        <nav>
+            <h2 class="portifolio">Portifo<span>lio</span></h2>
+            <ul>
+                <li><a class="link-menu" href="#inicio-id">Início</a></li>
+                <li><a class="link-menu" href="#sobre-min-id">Sobre</a></li>
+                <li><a class="link-menu" href="#habilidades-id">Habilidades</a></li>
+                <li><a class="link-menu" href="#projetos-id">Projetos</a></li>
+                <li><a class="link-menu" href="#contatos-id">Contatos</a></li>
+            </ul>
+        </nav>
+        <div class="meu-nome">
+            <h1>Taylor<span> Souza</span></h1>
+            <h3>Estudante de Desenvolvimento de Sistemas</h3>
+        </div>
+    </div>
+
+    <section class="sobre-mim" id="sobre-min-id">
+        <img src="./img/minha-ft.jpeg" alt="Foto de perfil">
+        <div>
+            <h2>Sobre mim</h2>
+            <p>Sou estudante de programação com foco na linguagem Java e atualmente estou cursando Desenvolvimento de Sistemas, com ênfase em desenvolvimento back-end.</p>
+            <button class="entrar-contatod-btn"><a href="#contatos-id">Entrar em contato</a></button>
+        </div>
+    </section>
+
+    <section class="habilidades" id="habilidades-id">
+        <h2>Habilidades</h2>
+        <div class="card-habilidades">
+            <div class="card">
+                <img src="./img/java.png" alt="Java">
+                <h5>Java</h5>
+                <p>Desenvolvedor iniciante com conhecimento em POO, Java Swing, JSP.</p>
+            </div>
+            <div class="card">
+                <img src="./img/HTML-CSS-JS-Logo.png" alt="HTML, CSS, JS">
+                <h5>HTML, CSS e JS</h5>
+                <p>Conhecimentos básicos em front-end utilizando HTML, CSS e JavaScript.</p>
+            </div>
+            <div class="card">
+                <img src="./img/mysql.png" alt="MySQL">
+                <h5>MySQL</h5>
+                <p>Conhecimento básico em MySQL, focado em gerenciamento de dados.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="projetos" id="projetos-id">
+        <h2>Projetos</h2>
+        <div class="card-projetos">
+            <div class="card1">
+                <img src="./img/ponto-de-venda.png" alt="SGVE">
+                <h5>SGVE</h5>
+                <p>Sistema de gerenciamento de vendas e estoque para controlar produtos, lucros e estoque.</p>
+                <a href="https://github.com/TaylorSzu/SGVE" target="_blank">Ver projeto</a>
+            </div>
+            <div class="card1">
+                <img src="./img/SimbaPets.png" alt="Simba Pets">
+                <h5>Simba Pets</h5>
+                <p>Sistema Web feito em JSP para gestão de produtos, estoque e vendas para casas de ração.</p>
+                <a href="https://github.com/TaylorSzu/CashFlow" target="_blank">Ver projeto</a>
+            </div>
+            <div class="card1">
+                <img src="./img/cashFlow.png" alt="Cash Flow">
+                <h5>Cash Flow</h5>
+                <p>Sistema de gerenciamento financeiro pessoal, auxiliando na organização das suas finanças.</p>
+                <a href="https://github.com/TaylorSzu/CashFlow" target="_blank">Ver projeto</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contatos" id="contatos-id">
+        <h2>Contatos</h2>
+        <h5>Taylor <span>Souza</span></h5>
+        <p>Entre em contato comigo através das redes sociais abaixo.</p>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/taylor-souza-8a4353251/" target="_blank"><img src="./img/linkedin.png" alt="LinkedIn"></a>
+            <a href="https://api.whatsapp.com/send?phone=5571997047379&text=Entre%20em%20contato%20comigo" target="_blank"><img src="./img/telefone.png" alt="WhatsApp"></a>
+            <a href="https://www.instagram.com/taylor_szu/" target="_blank"><img src="./img/instagram.jpeg" alt="Instagram"></a>
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJfpKgZjqMhDvJGTZgplNmvLxDqTBxdTMkcTjJBptZKNjXFkLGTtfXTrFpQWqdCJWhMMJgB" target="_blank"><img src="./img/gmail.png" alt="Gmail"></a>
+            <a href="https://discord.gg/XDBqwkx2GU" target="_blank"><img src="./img/discord.png" alt="Discord"></a>
+            <a href="https://drive.google.com/file/d/1BVtdBBmDul6UNOiiRwjidgRrdZ-kxjFu/view?usp=drive_link" target="_blank"><img src="./img/curriculo.png" alt="curriculo"></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>Desenvolvido por Taylor Souza</p>
+    </footer>
+
+    <div class="back-to-top" onclick="scrollToTop()">&#8679;</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
