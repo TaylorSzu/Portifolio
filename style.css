@@ -372,3 +372,122 @@ footer p {
 .card1:hover {
     transform: scale(1.05); 
 }
+
+@media (max-width: 768px) {
+    .portifolio {
+        font-size: 28px;
+    }
+
+    .meu-nome {
+        position: absolute; 
+        top: 16%; 
+        left: 10%; 
+        text-align: left; 
+        z-index: 1; 
+    }
+
+    .meu-nome h1 {
+        font-size: 30px;
+        margin-left: 15%;
+        margin-bottom: 2%; 
+    }
+
+    .meu-nome h3 {
+        font-size: 18px;
+    }
+
+    .caixa-principal {
+        width: 100%;
+        height: 35vh;
+        background-image: url(./img/background.png);
+        background-size: 90%;
+    }
+
+    li {
+        font-size: 18px;
+        margin-right: 15px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .sobre-mim h2 {
+        font-size: 40px;
+    }
+
+    .sobre-mim p,
+    .card1 h5,
+    .card1 p,
+    .card-habilidades .card h5,
+    .card-habilidades .card p {
+        font-size: 16px;
+    }
+
+    .sobre-mim button,
+    .card1 a,
+    .card-habilidades .card a {
+        height: 40px;
+        width: 120px;
+        font-size: 14px;
+    }
+
+    .sobre-mim img {
+        width: 30%; 
+        height: auto; 
+    }
+
+    .card1 img,
+    .card-habilidades .card img {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .card-habilidades {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-projetos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card.visible {
+        width: 70%;
+        height: 20vh;
+        margin-bottom: 10%;
+    }
+
+    .card.visible img {
+        width: 30%;
+        height: 10vh;
+    }
+
+    .card1 {
+        width: 60%;
+        height: 31vh;
+        margin-bottom: 10%;
+    }
+
+    .card1 img  {
+        width: 40%;
+        height: 10vh;
+        margin-bottom: 10%;
+    }
+
+    .contatos h2,
+    .habilidades h2 {
+        font-size: 40px;
+    }
+
+    .contatos h5 {
+        font-size: 20px;
+    }
+
+    .social img {
+        height: 25px;
+    }
+}
